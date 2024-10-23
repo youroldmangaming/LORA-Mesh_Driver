@@ -29,9 +29,8 @@ sudo raspi-config nonint do_spi 0
 
 # Step 4: Clone the driver repository (if hosted on a repository)
 info "Cloning the driver repository..."
-# Replace with your actual repository URL if hosted, otherwise skip
-# git clone https://github.com/youroldmangaming/LORA-Mesh_Driver/sx1276_mesh_driver.git
-# cd sx1276_mesh_driver
+git clone https://github.com/youroldmangaming/LORA-Mesh_Driver.git
+cd LORA-Mesh_Driver
 
 # Step 5: Build the SX1276 mesh driver
 info "Building the SX1276 mesh driver..."
