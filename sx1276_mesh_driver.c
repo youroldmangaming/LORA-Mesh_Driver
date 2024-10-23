@@ -152,6 +152,6 @@ static void __exit lora_exit(void) {
 module_init(lora_init);
 module_exit(lora_exit);
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
+MODULE_LICENSE("MIT");
+MODULE_AUTHOR("Mike Wilson - Youroldmangmaing");
 MODULE_DESCRIPTION("SX1276 LoRa driver with mesh networking");
